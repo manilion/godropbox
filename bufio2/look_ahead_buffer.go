@@ -3,7 +3,7 @@ package bufio2
 import (
 	"io"
 
-	"github.com/dropbox/godropbox/errors"
+	"github.com/manilion/godropbox/errors"
 )
 
 // LookAheadBuffer provides I/O look ahead functionality.  This is particularly

@@ -1,4 +1,4 @@
-# godropbox [![GoDoc](https://godoc.org/github.com/dropbox/godropbox?status.svg)](https://godoc.org/github.com/dropbox/godropbox) [![Build Status](https://travis-ci.org/dropbox/godropbox.svg)](https://travis-ci.org/dropbox/godropbox)
+# godropbox [![GoDoc](https://godoc.org/github.com/manilion/godropbox?status.svg)](https://godoc.org/github.com/manilion/godropbox) [![Build Status](https://travis-ci.org/dropbox/godropbox.svg)](https://travis-ci.org/dropbox/godropbox)
 
 Common libraries for writing go services/applications on Linux servers.
 
@@ -7,11 +7,11 @@ Common libraries for writing go services/applications on Linux servers.
  * Linux/x64
 
 ### Installation
-``go get github.com/dropbox/godropbox``
+``go get github.com/manilion/godropbox``
 
 ### Documentation
 
-See https://godoc.org/github.com/dropbox/godropbox for modules documentation.
+See https://godoc.org/github.com/manilion/godropbox for modules documentation.
 
 #### Contributors
 - Adam Faulkner

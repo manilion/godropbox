@@ -3,7 +3,7 @@ package memcache
 import (
 	"io"
 
-	"github.com/dropbox/godropbox/net2"
+	"github.com/manilion/godropbox/net2"
 )
 
 // An item to be gotten from or stored in a memcache server.

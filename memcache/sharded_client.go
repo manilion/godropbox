@@ -3,8 +3,8 @@ package memcache
 import (
 	"expvar"
 
-	"github.com/dropbox/godropbox/errors"
-	"github.com/dropbox/godropbox/net2"
+	"github.com/manilion/godropbox/errors"
+	"github.com/manilion/godropbox/net2"
 )
 
 // A sharded memcache client implementation where sharding management is

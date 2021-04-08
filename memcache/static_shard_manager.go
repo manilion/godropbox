@@ -3,7 +3,7 @@ package memcache
 import (
 	"log"
 
-	"github.com/dropbox/godropbox/net2"
+	"github.com/manilion/godropbox/net2"
 )
 
 // A shard manager that returns connections from a static list of memcache

@@ -16,8 +16,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/dropbox/godropbox/encoding2"
-	"github.com/dropbox/godropbox/errors"
+	"github.com/manilion/godropbox/encoding2"
+	"github.com/manilion/godropbox/errors"
 )
 
 var (

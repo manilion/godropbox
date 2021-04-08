@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dropbox/godropbox/sync2"
+	"github.com/manilion/godropbox/sync2"
 )
 
 type idleHandle struct {

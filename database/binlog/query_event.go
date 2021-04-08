@@ -3,8 +3,8 @@ package binlog
 import (
 	"bytes"
 
-	"github.com/dropbox/godropbox/errors"
-	mysql_proto "github.com/dropbox/godropbox/proto/mysql"
+	"github.com/manilion/godropbox/errors"
+	mysql_proto "github.com/manilion/godropbox/proto/mysql"
 )
 
 const MaxDbsInEventMts = 254

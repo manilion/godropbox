@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dropbox/godropbox/container/set"
-	"github.com/dropbox/godropbox/errors"
+	"github.com/manilion/godropbox/container/set"
+	"github.com/manilion/godropbox/errors"
 )
 
 // A Source that can be concurrently used by multiple goroutines.

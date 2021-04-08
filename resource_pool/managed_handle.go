@@ -3,7 +3,7 @@ package resource_pool
 import (
 	"sync/atomic"
 
-	"github.com/dropbox/godropbox/errors"
+	"github.com/manilion/godropbox/errors"
 )
 
 // A resource handle managed by a resource pool.

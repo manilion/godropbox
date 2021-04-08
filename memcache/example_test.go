@@ -5,8 +5,8 @@ import (
 	"hash/crc32"
 	"net"
 
-	"github.com/dropbox/godropbox/memcache"
-	"github.com/dropbox/godropbox/net2"
+	"github.com/manilion/godropbox/memcache"
+	"github.com/manilion/godropbox/net2"
 )
 
 func ExampleRawBinaryClient() {

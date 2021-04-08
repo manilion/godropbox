@@ -8,9 +8,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/dropbox/godropbox/errors"
-	. "github.com/dropbox/godropbox/gocheck2"
-	mysql_proto "github.com/dropbox/godropbox/proto/mysql"
+	"github.com/manilion/godropbox/errors"
+	. "github.com/manilion/godropbox/gocheck2"
+	mysql_proto "github.com/manilion/godropbox/proto/mysql"
 )
 
 const testDir = "/dir"

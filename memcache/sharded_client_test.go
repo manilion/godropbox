@@ -5,7 +5,7 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/dropbox/godropbox/net2"
+	"github.com/manilion/godropbox/net2"
 )
 
 // MockShardManager

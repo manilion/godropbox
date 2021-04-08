@@ -3,9 +3,9 @@ package resource_pool
 import (
 	. "gopkg.in/check.v1"
 
-	"github.com/dropbox/godropbox/container/set"
-	. "github.com/dropbox/godropbox/gocheck2"
-	"github.com/dropbox/godropbox/time2"
+	"github.com/manilion/godropbox/container/set"
+	. "github.com/manilion/godropbox/gocheck2"
+	"github.com/manilion/godropbox/time2"
 )
 
 type RoundRobinResourcePoolSuite struct {

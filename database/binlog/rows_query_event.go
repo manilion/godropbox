@@ -1,8 +1,8 @@
 package binlog
 
 import (
-	"github.com/dropbox/godropbox/errors"
-	mysql_proto "github.com/dropbox/godropbox/proto/mysql"
+	"github.com/manilion/godropbox/errors"
+	mysql_proto "github.com/manilion/godropbox/proto/mysql"
 )
 
 // A representation of the rows-query event.  NOTE: Rows-query event is not

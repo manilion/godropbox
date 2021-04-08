@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dropbox/godropbox/errors"
-	"github.com/dropbox/godropbox/math2/rand2"
+	"github.com/manilion/godropbox/errors"
+	"github.com/manilion/godropbox/math2/rand2"
 )
 
 const (

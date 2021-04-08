@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/dropbox/godropbox/errors"
-	"github.com/dropbox/godropbox/math2/rand2"
+	"github.com/manilion/godropbox/errors"
+	"github.com/manilion/godropbox/math2/rand2"
 )
 
 type ResourceLocationPool struct {

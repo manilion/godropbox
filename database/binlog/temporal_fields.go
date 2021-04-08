@@ -3,8 +3,8 @@ package binlog
 import (
 	"time"
 
-	"github.com/dropbox/godropbox/errors"
-	mysql_proto "github.com/dropbox/godropbox/proto/mysql"
+	"github.com/manilion/godropbox/errors"
+	mysql_proto "github.com/manilion/godropbox/proto/mysql"
 )
 
 // This contains field descriptors for temporal types as defined by

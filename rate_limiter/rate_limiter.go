@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dropbox/godropbox/errors"
+	"github.com/manilion/godropbox/errors"
 )
 
 const Unlimited = math.MaxFloat64

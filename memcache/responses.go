@@ -1,7 +1,7 @@
 package memcache
 
 import (
-	"github.com/dropbox/godropbox/errors"
+	"github.com/manilion/godropbox/errors"
 )
 
 func NewStatusCodeError(status ResponseStatus) error {

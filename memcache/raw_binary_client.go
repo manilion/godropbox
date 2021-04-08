@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/dropbox/godropbox/errors"
+	"github.com/manilion/godropbox/errors"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/dropbox/godropbox/errors"
+	"github.com/manilion/godropbox/errors"
 )
 
 // This is similar to io.CopyBuffer, except this uses circular buffer and

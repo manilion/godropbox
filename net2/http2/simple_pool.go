@@ -12,9 +12,9 @@ import (
 
 	"golang.org/x/net/http2"
 
-	"github.com/dropbox/godropbox/errors"
-	"github.com/dropbox/godropbox/stats"
-	"github.com/dropbox/godropbox/sync2"
+	"github.com/manilion/godropbox/errors"
+	"github.com/manilion/godropbox/stats"
+	"github.com/manilion/godropbox/sync2"
 )
 
 var (

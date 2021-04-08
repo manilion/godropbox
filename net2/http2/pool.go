@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/dropbox/godropbox/errors"
-	"github.com/dropbox/godropbox/stats"
+	"github.com/manilion/godropbox/errors"
+	"github.com/manilion/godropbox/stats"
 )
 
 type DoParams struct {

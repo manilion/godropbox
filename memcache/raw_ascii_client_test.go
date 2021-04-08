@@ -3,7 +3,7 @@ package memcache
 import (
 	. "gopkg.in/check.v1"
 
-	. "github.com/dropbox/godropbox/gocheck2"
+	. "github.com/manilion/godropbox/gocheck2"
 )
 
 type RawAsciiClientSuite struct {

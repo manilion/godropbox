@@ -6,7 +6,7 @@ import (
 	"io"
 	"sync"
 
-	mysql_proto "github.com/dropbox/godropbox/proto/mysql"
+	mysql_proto "github.com/manilion/godropbox/proto/mysql"
 )
 
 // MockLogFile is thread-safe.
