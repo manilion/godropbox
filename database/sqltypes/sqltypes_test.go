@@ -185,6 +185,16 @@ func (s *SqlTypesSuite) TestBuildValue(c *C) {
 	c.Assert(err, IsNil)
 	c.Assert(v.IsNumeric(), IsTrue)
 	c.Assert(v.String(), Equals, "-1")
+	
+	v, err = BuildValue(int8(-1))
+	c.Assert(err, IsNil)
+	c.Assert(v.IsNumeric(), IsTrue)
+	c.Assert(v.String(), Equals, "-1")
+	
+	v, err = BuildValue(int16(-1))
+	c.Assert(err, IsNil)
+	c.Assert(v.IsNumeric(), IsTrue)
+	c.Assert(v.String(), Equals, "-1")
 
 	v, err = BuildValue(int32(-1))
 	c.Assert(err, IsNil)
@@ -200,6 +210,11 @@ func (s *SqlTypesSuite) TestBuildValue(c *C) {
 	c.Assert(err, NotNil)
 
 	v, err = BuildValue(uint(1))
+	c.Assert(err, IsNil)
+	c.Assert(v.IsNumeric(), IsTrue)
+	c.Assert(v.String(), Equals, "1")
+	
+	v, err = BuildValue(uint16(1))
 	c.Assert(err, IsNil)
 	c.Assert(v.IsNumeric(), IsTrue)
 	c.Assert(v.String(), Equals, "1")
